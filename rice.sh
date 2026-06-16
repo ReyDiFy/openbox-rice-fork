@@ -1,9 +1,9 @@
 #! /usr/bin/sh
 sudo pacman --noconfirm -Syu base-devel git
 # change the following line to your username
-GH_USERNAME=hucancode
+GH_USERNAME=ReyDiFy
 # change the following line to your github repository
-GH_REPO=home
+GH_REPO=openbox-rice-fork
 # checkout configurations
 git init
 git remote add origin https://github.com/$GH_USERNAME/$GH_REPO
