@@ -13,7 +13,7 @@ git checkout -t origin/main
 git submodule update --init --recursive
 # install yay
 git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin && makepkg -si && cd -
+cd yay && makepkg -si && cd -
 # install packages
 FILE_MANAGER="yazi exa"
 EDITOR="helix git-delta"
