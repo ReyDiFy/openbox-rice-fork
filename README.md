@@ -31,11 +31,11 @@
 
 This script will check out my git repo at your home directory and install all software
 ```bash
-curl https://raw.githubusercontent.com/hucancode/home/main/rice.sh | sh
+curl https://raw.githubusercontent.com/ReyDiFy/openbox-rice-fork/main/rice.sh | sh
 ```
 Or install only cli tool with this (useful if you are on WSL)
 ```bash
-curl https://raw.githubusercontent.com/hucancode/home/main/rice-cli.sh | sh
+curl https://raw.githubusercontent.com/ReyDiFy/openbox-rice-fork/main/rice-cli.sh | sh
 ```
 
 ## 🐌 Other distro
