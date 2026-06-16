@@ -11,8 +11,7 @@ git fetch
 git reset origin/main
 git checkout -t origin/main
 git submodule update --init --recursive
-# install yay
-makepkg -si && cd -
+
 # install packages
 THEME="lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings arc-gtk-theme"
 FONTS="ttf-fira-code ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji"
