@@ -1,9 +1,9 @@
 #! /usr/bin/sh
 sudo pacman --noconfirm -Syu base-devel git
 # change the following line to your username
-GH_USERNAME=ReyDiFy
+GH_USERNAME=hucancode
 # change the following line to your github repository
-GH_REPO=openbox-rice-fork
+GH_REPO=home
 # checkout configurations
 git init
 git remote add origin https://github.com/$GH_USERNAME/$GH_REPO
@@ -12,8 +12,7 @@ git reset origin/main
 git checkout -t origin/main
 git submodule update --init --recursive
 # install yay
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay && makepkg -si && cd -
+makepkg -si && cd -
 # install packages
 THEME="lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings arc-gtk-theme"
 FONTS="ttf-fira-code ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji"
